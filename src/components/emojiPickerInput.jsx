@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import emojiPicker from "./emojiPicker";
 import EmojiPicker from "./emojiPicker";
 
 export default function EmojiPickerInput(){
@@ -9,6 +10,7 @@ export default function EmojiPickerInput(){
 
 return(
 <>
+
 
  <div>
 
@@ -23,6 +25,5 @@ return(
 }
 
 //use ref nos permite acceder a la referencia de un elemento
-
 
 
